@@ -1,0 +1,23 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "This is a telegram bot for TruckBot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cavidk/telegram-Bot-.git"
+  },
+  "author": "Javid Kazimzada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cavidk/telegram-Bot-/issues"
+  },
+  "homepage": "https://github.com/cavidk/telegram-Bot-#readme",
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.61.3"
+  }
+}
