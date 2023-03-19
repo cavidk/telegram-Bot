@@ -3,10 +3,6 @@ require('dotenv').config();
 
 const TOKEN = process.env.TOKEN;
 
-
-
-//token registration
-
 const bot = new telegramBot(TOKEN, { polling: true});
 
 bot.on('message', (message)=>{
@@ -15,8 +11,6 @@ bot.on('message', (message)=>{
 
 
 });
-
-//bot menu 
 
 bot.onText(/\/start/, (msg) => {
    bot.sendMessage(msg.chat.id, "Welcome to my bot and Please choose an option from the menu:", {
@@ -29,8 +23,3 @@ bot.onText(/\/start/, (msg) => {
      }
    });
  });
-
-
-//  bot.onText(/Option 1/, (msg) => {
-//    bot.sendMessage(msg.chat.id, "You chose Option 1");
-//  });
